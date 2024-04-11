@@ -40,6 +40,17 @@ define( 'TITLE_TAGS_VERSION', '1.0' );
  * @param int $hook Hook suffix for the current admin page.
  */
 function title_tags_enqueue_admin_script( $hook ) {
-    wp_enqueue_script( 'title-tags', plugin_dir_url( __FILE__ ) . 'js/tt-admin.js', array(), TITLE_TAGS_VERSION );
+    wp_enqueue_script( 'title-tags-admin', plugins_url( 'js/tt-admin.js', __FILE__ ) , array(), TITLE_TAGS_VERSION );
 }
 add_action( 'admin_enqueue_scripts', 'title_tags_enqueue_admin_script' );
+
+
+/**
+ * Enqueue a script in the WordPress admin on edit.php.
+ *
+ * @param int $hook Hook suffix for the current admin page.
+ */
+function title_tags_enqueue_script( $hook ) {
+    wp_enqueue_script( 'title-tags', plugins_url( 'js/tt-public.js', __FILE__ ) , array(), TITLE_TAGS_VERSION );
+}
+add_action( 'wp_enqueue_scripts', 'title_tags_enqueue_script' );

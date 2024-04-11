@@ -45,4 +45,5 @@ This plugins is simple but sometime small thing give us big impact. So, I have c
 == Changelog ==
 
 = 1.0 =
-* Inital release. 
+* Initial release. 
+* Added filter for <b>, <i>, <strong>, <em>
