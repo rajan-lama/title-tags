@@ -1,6 +1,5 @@
 === Title Tags ===
-Contributors: lamarajan, prosysthemes
-Donate link: https://prosysthemes.com/
+Contributors: lamarajan
 Tags: gutenberg
 Requires at least: 5.0
 Requires PHP: 5.2.4

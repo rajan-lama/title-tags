@@ -8,17 +8,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://prosysthemes.com
+ * @link              https://rajanlama.com.np/
  * @since             1.0
  * @package           title_tags
  *
  * @wordpress-plugin
  * Plugin Name:       Title Tags
- * Plugin URI:        https://prosysthemes.com/wordpress-plugins/title-tags
+ * Plugin URI:        https://github.com/rajan-lama/title-tags
  * Description:       A WordPress plugin that helps post author to enable and display HTML tags in the title of the gutenberg editor and preserve the tags in the post Title.  
  * Version:           1.0
  * Author:            Rajan Lama
- * Author URI:        https://prosysthemes.com/
+ * Author URI:        https://rajanlama.com.np/
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       title-tags
